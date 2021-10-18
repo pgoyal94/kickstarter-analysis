@@ -11,12 +11,16 @@ Louise was fundraising for her play _Fever_ and was able to nearly hit her fundr
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-This analysis was done by creating a pivot table and line chart to show the number of successful, failed, and canceled theater campaigns based on the month in which they began. 
+This analysis was done by creating a pivot table and line chart to show the number of successful, failed, live and canceled campaigns based on the month in which they began. 
+
+![Outcomes based on launch date](https://user-images.githubusercontent.com/92613639/137670151-bc35a948-76f1-4036-acee-75e0fc1cf951.png)
 
 Though I did not face any difficulties in this task, I imagine it could be difficult ensuring that the correct fields end up in the appropriate rows and columns in the pivot chart and making sure the correct information gets relayed onto the correct axis of the resulting chart. The good thing about pivot tables and charts is that they are highly malliable and can be played around with until you get the desired results.
 
 ### Analysis of Outcomes Based on Goals
 This analysis was done by calculating the proportion of successful, failed, and canceled play campaigns based on the fundraising goal amount.
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/92613639/137670000-fd95d5ac-f8d9-4c96-8670-125e8b1bbeab.png)
 
 Creating the table for this analysis required use of the COUNTIFS() statement, one that I had never used before. There was much manual manipulation to ensure each row and each column showed the correct data for the columns counting the number of campaigns in each criteria bucket. I was able to copy the initial formula and pull it over for the corresponding goal buckets, which helped me save some time and energy.
 
@@ -24,8 +28,8 @@ Creating the table for this analysis required use of the COUNTIFS() statement, o
 
 
 ## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+- What are two conclusions you can draw about the Theater Outcomes by Launch Date?
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/92613639/137670273-22b6532f-189e-45ca-9b04-ea4ec4237b76.png)
   - Based on the Kickstarter data we are using, the most optimal month to launch a theater fundraising campaign appears to be May. The late spring, early summer months are also okay, but the rate of success slowly declines from May through December, so the later you go, the less likely your campaign is to be successful.
   - Based on the Kickstarter data we are using, the number of failed and canceled campaigns does not vary nearly as much as the successful campaigns. There is variance in the total number of campaigns launched by month, but the variability mostly shows in the successful campaigns, rather than in the failed and canceled ones.
 
